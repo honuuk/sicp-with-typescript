@@ -1,4 +1,4 @@
-import { abs, add, divide, square, subtract } from "../scheme";
+import { abs, add, divide, square, subtract } from "../../scheme";
 
 export const sqrt = (x: number): number => sqrtIter(1, x);
 

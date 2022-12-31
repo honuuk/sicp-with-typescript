@@ -1,4 +1,4 @@
-import { abs, add, divide, multiply, square, subtract } from "../scheme";
+import { abs, add, divide, multiply, square, subtract } from "../../scheme";
 
 const cbrt = (x: number): number => cbrtIter(1, x);
 
